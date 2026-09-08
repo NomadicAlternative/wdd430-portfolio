@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Live Demo
+
+Deployed on Vercel: [https://wdd430-portfolio-seven-inky.vercel.app/](https://wdd430-portfolio-seven-inky.vercel.app/)
+
 ## Getting Started
 
 First, run the development server:
