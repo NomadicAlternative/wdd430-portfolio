@@ -9,8 +9,11 @@ const projects = [
   {
     title: 'Leadership Planning System',
     description: 'A shared leadership planning system based on the Franklin Covey methodology, built for the Elda Branch.',
-    technologies: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Tailwind CSS'],
-    link: 'https://github.com/NomadicAlternative/leadership-planning-system'
+    technologies: ['Next.js', 'React', 'TypeScript', 'Supabase', 'Tailwind CSS']
+    // Sin 'link' a proposito: ese repositorio es privado, y un enlace
+    // publico a un repo privado devuelve 404 a cualquier visitante.
+    // ProjectCard solo dibuja el enlace si la prop existe, asi que la
+    // tarjeta sigue mostrandose sin el.
   },
   {
     title: 'ioTech',
@@ -33,7 +36,7 @@ export default function Home() {
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold mb-4">My Portfolio</h1>
         <p className="text-lg text-gray-700">
-          I'm a full-stack developer learning Next.js and React. Here are some of my recent projects.
+          I&apos;m a full-stack developer learning Next.js and React. Here are some of my recent projects.
         </p>
       </section>
 
